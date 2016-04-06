@@ -1,0 +1,24 @@
+{
+    "name": "oanhnn/deployer-on-homestead",
+    "type": "project",
+    "description": "An example about using Deployer to deploy Laravel application on Homestead",
+    "keyworks": ["deployer", "homestead", "ubuntu", "deployment", "Laravel"],
+    "license": "MIT",
+    "homepage": "https://github.com/oanhnn/deployer-on-homestead.git",
+    "support": {
+        "issues": "https://github.com/oanhnn/deployer-on-homestead/issues",
+        "source": "https://github.com/oanhnn/deployer-on-homestead.git"
+    },
+    "authors": [
+        {
+            "name": "Oanh Nguyen",
+            "email": "oanhnn.bk@gmail.com"
+        }
+    ],
+    "require": {
+        "deployer/deployer": "^3.1"
+    },
+    "require-dev": {
+        "laravel/homestead": "^3.0"
+    }
+}

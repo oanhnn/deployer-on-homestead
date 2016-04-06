@@ -1,0 +1,18 @@
+---
+ip: "192.168.10.10"                 # your homestead's machine IP
+memory: 1024
+cpus: 1
+hostname: deployer-on-homestead     # your homestead's hostname
+name: deployer-on-homestead         # your homestead's machine name
+provider: virtualbox
+
+authorize: "./key/id_rsa.pub"       # your public key
+
+keys:
+    - "./key/id_rsa"                # your private key
+
+folders:
+    - map: "./"
+      to: "/home/vagrant/deployer-on-homestead"
+
+sites: []
