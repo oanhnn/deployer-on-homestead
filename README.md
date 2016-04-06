@@ -20,7 +20,7 @@ How to use
 
 **Goodluck!** :smile:
 
-All source code is available in [here][example-source]
+[document][]
 
 
 [Homestead]: https://laravel.com/docs/5.2/homestead
